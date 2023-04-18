@@ -2,8 +2,6 @@
 
 Official repository for [AbFold](): an AlphaFold Based Transfer Learning Model for Accurate Antibody Structure Prediction.
 
-![](Net.png)
-
 ## Installation
 
 All Python dependencies are specified in `environment.yml`. 
