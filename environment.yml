@@ -30,5 +30,4 @@ dependencies:
       - modelcif==0.7
       - git+https://github.com/NVIDIA/dllogger.git
       - einops
-      - invariant-point-attention
       - timm
