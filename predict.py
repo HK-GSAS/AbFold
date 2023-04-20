@@ -16,7 +16,7 @@ from train_ema import tensor_dict_to_device
 
 
 def main(args):
-    device = "cuda:0" if torch.cuda.is_available() else "cpu"
+    device = "cuda:1" if torch.cuda.is_available() else "cpu"
     model = AbFold(config)
     checkpoint_name = args.checkpoint_name
     if os.path.isfile(checkpoint_name):

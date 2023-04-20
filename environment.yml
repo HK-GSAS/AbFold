@@ -1,4 +1,4 @@
-name: openfold_venv
+name: abfold
 channels:
   - conda-forge
   - bioconda
@@ -29,3 +29,6 @@ dependencies:
       - wandb==0.12.21
       - modelcif==0.7
       - git+https://github.com/NVIDIA/dllogger.git
+      - einops
+      - invariant-point-attention
+      - timm
