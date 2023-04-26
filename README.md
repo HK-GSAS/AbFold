@@ -16,6 +16,10 @@ To activate the virtual environment, run:
 $ conda activate abfold
 ```
 
+## Data
+
+Data used as benckmark and pre-trained model weights are available at [Google Drive](https://drive.google.com/drive/folders/1_-IYqj0bQWra_7erb8mwLnrJ1Vm_l1G4?usp=sharing).
+
 ## Training
 
 Before training, download data to `data` folder as following structure:
